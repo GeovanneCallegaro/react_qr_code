@@ -1,7 +1,12 @@
+import './App.css';
+
 function App() {
   return (
-    <div >
-      <h1>Olá, Mundo!</h1>
+    <div className="container">
+      <input 
+        className="input"
+        placeholder="Digite seu link..."
+      />
     </div>
   );
 }
